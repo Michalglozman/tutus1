@@ -59,6 +59,9 @@ td small{
     height: 60px;
     margin-top: -10px;
 }
+.mOver{
+    cursor: pointer;
+}
 .back{
 
     width: 25px;
@@ -124,7 +127,6 @@ footer a{
     opacity: 10%;
 }
 
-/* Form css */
 .loginbody {
   display: flex;
   align-items: center;
