@@ -1,0 +1,246 @@
+*{margin:0 ;
+    padding: 0;
+  }
+
+header ,main ,nav ,footer ,section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+header{
+    background-color: rgb(184, 184, 184);
+    height: 50px;
+    padding-top: 15px;
+    width: 100%;
+}
+#logo{
+    display: block;
+    background-image: url(../img/logo.svg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    float: right;
+    right: 0;
+    margin-top: -8px;
+    position: absolute;
+}
+.main{
+    margin-left:24px ;
+    color: rgb(136, 136, 136);
+    margin-right: 24px;
+}
+
+.dropdown-menu {
+    width: 260px !important;
+}
+.date{
+    width: 250px;
+}
+li input{
+    float:right;
+    margin-right: 5px;
+}
+td h6{
+    margin-top: 5px ;
+    margin-bottom: -4px;
+}
+
+td small{
+    padding-bottom: 85px ;
+}
+.tableRide {
+    background-color :#cccccc;
+    width: 90%;
+}
+#footerNav li.active > a {
+    border-bottom:2px solid rgb(0, 0, 0);
+}
+#footerNav{
+    height: 60px;
+    margin-top: -10px;
+}
+.back{
+
+    width: 25px;
+    height: 25px;
+}
+footer a{
+    color: black;
+}
+#data-label {
+    font-size: 35px;
+    position: absolute;
+  }
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.RideSummry{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.dataSum{
+    text-size-adjust: 15px;
+}
+.tableSum{
+    margin-left: -70px ;
+    border-color:white ;
+}
+.colorBar{
+    background-color: grey;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 50%;
+  }
+.footerIcon{
+    height: 35px;
+    width: 35px;
+}
+.navFooterText{
+    font-size: 10px;
+}
+.navSpace{
+    margin-left: 120px;
+}
+.goals{
+    display: block;
+    margin-left: 25px;
+}
+
+.disabledRank{
+    opacity: 10%;
+}
+
+/* Form css */
+.loginbody {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin:auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* Profile css */
+/*
+ * FilePond Custom Styles
+ */
+
+ .filepond--drop-label {
+	color: #4c4e53;
+}
+
+.filepond--label-action {
+	text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+	background-color: #edf0f4;
+}
+
+
+/**
+ * Page Styles
+ */
+ .profile-badge{
+    border:1px solid #c1c1c1;
+    padding:5px;
+    position: relative;
+}
+
+.user-detail{
+    background-color: #fff;
+    position: relative;
+    padding:115px 0px 10px 0px;
+    color:#8B8B89;
+}
+.user-detail h3{
+    margin: 0px;
+    margin:0px 0px 5px 0px;
+    color: #000;
+}
+.user-detail p{
+    font-size:14px;
+}
+.user-detail .btn{
+    margin-bottom:10px;
+    background-color: #fff;
+    border:1px solid #DEDEDE;
+    border-radius: 0px;
+    color:black;
+}
+.user-detail .btn i{
+    color:#D35B4D;
+    padding-right:18px;
+}
+.profile-pic{
+    margin: 0 auto;
+    height:120px;
+    width:120px;
+
+    z-index: 1001;
+}
+.profile-pic img{
+   
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #c1c1c1;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}   
+
+/*Profile Pic End*/

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/7e4f8a2e21.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="js\scripts.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="css\style.css">
+        
+       <meta charset="UTF-8" >
+       <title>TUTUS</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <div class="jumbotron">
+                    <div class="row ">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 align-self-center"><h5 class="text-center">TUTUS</h5></div>
+                        <div class="col-md-4 float-end"> <a href="index.html" id="logo"></a></div>
+                    </div>
+                </div>
+            </header>
+            <br><br>
+            <div class="main">
+                <h5>Total feedback score:</h5>
+                <div class="col-md-4 py-1 center">
+                    <div class="card">
+                        <div class="card-body">
+                            <canvas id="chDonut1"></canvas>
+                            <span id="data-label"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h5>Your score compare to other users:</h5>
+                <div class="col-md-6 py-1 center">
+                    <div class="card">
+                        <div class="card-body">
+                            <canvas id="bar1"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h5>Goals in progress:</h5>
+                <div class="goals">
+                    <i class='far fa-hand-paper' style='font-size:48px;color:rgb(0, 0, 0)'></i>
+                </div>
+                    <label>Sudden breaks</label>
+                <br>
+                <hr>
+                <h5>My achievements:</h5>
+            
+                <table class="table achievscooter mx-auto">
+                    <tbody>
+                    <tr  text-center">
+                        <div>
+                        <td class="disabledRank text-center">
+                            <img src="img/first scooter.svg">
+                            <h6>Biggner</h6>
+                        </td>
+                    </div>
+                      <td class="active text-center">
+                       <img src="img/scooter yellow.svg">
+                       <h6>Safe and sound</h6>
+                      </td>
+                      <td class="disabledRank text-center">
+                        <img src="img/redscooter.svg">
+                        <h6>fast like the Flash</h6>
+                      </td>
+                      <td class="disabledRank text-center">
+                        <img src="img/blue scooter.svg">
+                        <h6>Advanced</h6>
+                      </td>
+                      <td class="disabledRank text-center">
+                        <img src="img/blue-yellow scooter.svg">
+                        <h6>Royalty</h6>
+                      </td>
+                    <td class="disabledRank text-center">
+                        <img src="img/red-pur scooter.svg">
+                        <h6>Pro</h6>
+                    </td>
+                    <td class="disabledRank text-center">
+                        <img src="img/neon scooter.svg">
+                        <h6>Expert</h6>
+                    </td>
+                </tr>
+                </tbody>
+                </table>
+
+                <div class="progress">
+                    <div class="progress-bar colorBar" role="progressbar" style="width: 22%;" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <p> Your progress is at 22%, you have to gain feedbacks score to achieve the next level</p>
+            </div>
+            <hr>
+            <br>
+            <br>
+        </div>
+        <footer class="footer fixed-bottom mt-auto py-3 bg-light">
+            <div class="container">
+                <ul id="footerNav" class="nav justify-content-center">
+                    <li class="nav-item text-center active " >
+                      <a class="nav-link" href="index.html">
+                          <img class="center footerIcon" src="img/house-door.svg">
+                          
+                          <span class="navFooterText">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center navSpace" >
+                        <a class="nav-link" href="Myride.html">
+                            <img class="center footerIcon" src="img/clock.svg">
+                            
+                            <span class="navFooterText">My Rides</span>
+                          </a>
+                      </li>
+                      <li class="nav-item text-center navSpace" >
+                        <a class="nav-link" href="#">
+                            <img class="center footerIcon" src="img/clipboard.svg">
+                            
+                            <span class="navFooterText">Feedback & Gloals</span>
+                          </a>
+                      </li>
+                      <li class="nav-item text-center navSpace" >
+                        <a class="nav-link " href="#">
+                            <img class="center footerIcon" src="img/person.svg">
+                            
+                            <span class="navFooterText">Profile</span>
+                          </a>
+                      </li>
+                  </ul>
+            </div>
+        </footer>
+    </body>
+</html>

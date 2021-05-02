@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="js\scripts.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="css\style.css">
+        
+       <meta charset="UTF-8" >
+       <title>TUTUS</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <div class="jumbotron">
+                    <div class="row ">
+                        <div class="col-md-4">
+                           <a href="Myride.html"><img class="back" src="img/chevron-compact-left.svg"></a>
+                        </div>
+                        <div class="col-md-4 align-self-center"><h5 class="text-center">My Ride</h5></div>
+                        <div class="col-md-4 float-end"> <a href="index.html" id="logo"></a></div>
+                    </div>
+                </div>
+            </header>
+            <br><br>
+            <div class="main">
+                <div id=" map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                  </div>
+                  <div class="RideSummry">
+                      <br>
+                  <h2>Ride Summry</h2>
+                  <span>Sunnday, January 14<br> 17:50 - 18:02</span>
+                  <br>
+                  
+                  <table class="table tableSum" >
+                      <tbody>
+                          <tr class="text-center">
+                              <td >
+                                  <span class="dataSum"><b>12:13</b><br></span>
+                                  <small>Time</small>
+                              </td>
+                              <td>
+                                <span class="dataSum"><b>2.6 Km</b><br></span>
+                                <small>Dictance</small>
+                            </td>
+                            <td >
+                                <span class="dataSum"><b>74 Pts</b><br></span>
+                                <small>Score</small>
+                            </td>
+                            <td >
+                                <span class="dataSum"><b>24 Km/h</b><br></span>
+                                <small>Avg Speed</small>
+                            </td>
+                            <td >
+                                <span class="dataSum"><b>Accident</b><br></span>
+
+                            </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <h2>Current ride indices</h2>
+                  <p>The results of the driving data percentages are analyzed and compared to other drivers</p>
+                  <label>Smooth driving</label>
+                  <div class="progress">
+                    <div class="progress-bar colorBar" role="progressbar" style="width: 61%;" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"><b>61%</b></div>
+                  </div>
+                  <label>Sharp turns</label>
+                  <div class="progress">
+                    <div class="progress-bar colorBar" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"><b>72%</b></div>
+                  </div>
+                  <label>Sudden breaks</label>
+                  <div class="progress ">
+                    <div class="progress-bar colorBar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><b>30%</b></div>
+                  </div>
+                  <label>Accelerations</label>
+                  <div class="progress ">
+                    <div class="progress-bar colorBar" role="progressbar" style="width: 91%;" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"><b>91%</b></div>
+                  </div>
+                  <label>Sharp transitions</label>
+                  <div class="progress ">
+                    <div class="progress-bar colorBar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><b>60%</b></div>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+        </div>
+        <footer class="footer fixed-bottom mt-auto py-3 bg-light">
+            <div class="container">
+                <ul id="footerNav" class="nav justify-content-center">
+                    <li class="nav-item text-center " >
+                      <a class="nav-link" href="index.html">
+                          <img class="center footerIcon" src="img/house-door.svg">
+                          
+                          <span class="navFooterText">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active text-center navSpace" >
+                        <a class="nav-link" href="Myride.html">
+                            <img class="center footerIcon" src="img/clock.svg">
+                            
+                            <span class="navFooterText">My Rides</span>
+                          </a>
+                      </li>
+                      <li class="nav-item text-center navSpace" >
+                        <a class="nav-link" href="#">
+                            <img class="center footerIcon" src="img/clipboard.svg">
+                            
+                            <span class="navFooterText">Feedback & Gloals</span>
+                          </a>
+                      </li>
+                      <li class="nav-item text-center navSpace" >
+                        <a class="nav-link " href="#">
+                            <img class="center footerIcon" src="img/person.svg">
+                            
+                            <span class="navFooterText">Profile</span>
+                          </a>
+                      </li>
+                  </ul>
+            </div>
+        </footer>
+    </body>
+</html>
